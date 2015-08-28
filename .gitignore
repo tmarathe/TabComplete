@@ -1,0 +1,23 @@
+
+#Gradle
+.gradle
+build
+
+#InteliJ
+*.iml
+*.ipr
+*.iws
+.idea
+atlassian-ide-plugin.xml
+
+# Eclipse
+.classpath
+.project
+.settings
+.checkstyle
+.fbprefs
+bin
+
+# NetBeans
+nbproject
+
