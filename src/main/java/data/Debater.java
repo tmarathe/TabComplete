@@ -47,7 +47,11 @@ public class Debater
 
     public double averageSpeakerScore()
     {
-        return 1.0;
+        double sum = 0;
+        for (Integer i : this.speakerScoresByRound.keySet()) {
+            sum += this.speakerScoresByRound.get(i);
+        }
+        return sum / this.speakerScoresByRound.size();
     }
 
 
