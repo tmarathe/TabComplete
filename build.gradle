@@ -4,3 +4,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 
 mainClassName = "data.Main"
+
+task getHomeDir << {
+    println gradle.gradleHomeDir
+}
